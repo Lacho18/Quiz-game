@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.root {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    height: 90%;
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color: rgb(5, 203, 229);
+}
+
+.AnswersDiv {
+    position: relative;
+    display: block;
+    left: 0;
+    top: 12%; 
+    margin-left: 15%;
+    width: 35%;
+    height: 20%;
+    border-left: 7px solid #9933ff;
+    border-radius: 40px;
+    padding: 10px;
+    background-color: bisque;
+}
+
+.AnswersDiv > label{
+    position: relative;
+    top: 0%;
+    left: 0%;
+    transform: translate(-50%, -50%);
+    font-size: 1.8vmax;
+    margin: 10px 10px;
+}
+
+#questionCounter {
+    position: relative;
+    top: 0;
+    left: 100%;
+    transform: translate(-14%, 0);
+    font-size: 3vmax;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#question {
+    font-size: 3vmax;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-decoration-line: underline;
+    color: rgb(77, 6, 164);
+}
+
+#Submit  {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 23%;
+    height: 8%;
+    margin: 5%;
+    border-radius: 27px;
+    font-size: 1.5vmax;
+    border: 3px solid black;
+    background-color: #0099cc;
+}
+
+#Submit:hover {
+    background-color: #80aaff;
+}
+
+#result > p {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.7vmax;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+#congratulations {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    color: rgb(214, 20, 20);
+    margin-top: 4%;
+    margin-right: 4%;
+    font-size: 3.2vmax;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
